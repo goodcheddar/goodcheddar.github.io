@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHEDDAR - GALLERY</title>
+	<link rel="stylesheet" type="text/css" href="Cheddar.css">
+    
+    <meta charset="utf-8">
+      
+    <!-- Bootstrap styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- Javascript capabilities -->    <!-- For small devices : Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!-- Tags to include: BootStrap CSS and BootStrap JS -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+    	var textMsg = ["Poor Cheddar ate a shoelace and had to get surgery to have it removed. She wore a cute small cone while she was recovering.",
+					   "There was an auction for Cheddar's Shoelace to raise money for her surgery.",
+					   ""];
+		
+		function onHover(imgNumber)
+		{
+			var shoelacetext = document.getElementById("shoelacetext");
+
+			shoelacetext.innerHTML = textMsg[imgNumber];
+		}
+
+    </script>
+
+</head>
+<body>
+	<div class="container">
+<!-- Top Nav bar -->
+	<div class="row">
+		<div class="col-sm-12">
+	        <!-- <div class="float-right"> 
+	            <ul class="nav">
+	                <li class="nav-item">
+	                    <a class="nav-link nav-link-inactive-color" href="cheddarSignIn.html">SIGN IN</a></li>
+	            </ul>
+	        </div> -->
+		</div>
+	</div>
+<br>
+	<div class="row">
+	    <div class="col-sm-5"> 
+	        <a class="nav-link-inactive-color" href="cheddarHome.html"><h1>CHEDDAR</h1></a>
+	    </div>
+	</div>
+	<div class="row">
+	    <div class="col-sm-12">
+	        <div class="float-right"> 
+	            <ul class="nav">
+	                <li class="nav-item">
+	                    <a class="nav-link nav-link-inactive-color" href="cheddarAbout.html">ABOUT</a></li>
+	  				<li class="nav-item">
+	                    <a class="nav-link active nav-link-active-color" href="cheddarGallery.html">GALLERY</a></li>
+	                <li class="nav-item">
+	                    <a class="nav-link nav-link-inactive-color" href="cheddarBlog.html">BLOG</a></li>
+	                <li class="nav-item">
+	                    <a class="nav-link nav-link-inactive-color" href="cheddarShop.html">SHOP</a></li>
+		    	</ul>
+	      </div>
+		</div>
+	</div>
+<hr width=100%>
+<!-- End of Top Nav Bar -->
+	<div class="row">
+		<div class="col-lg-8">
+			<div class="row">
+				<h2>GALLERY</h2>
+			</div>
+			<div class="row">
+				<h5>Feast your eyes on Cheddar</h5>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<img src="CheddarInBox1.jpg" width="300px">
+			<br>
+			<br>
+			<br>
+			<br>
+			<img src="CheddarRadiator1.jpg" width="300px">
+			<br>
+			<br>
+			<img src="CheddarGreenCouch1.jpg" width="300px">
+			<br>
+			<br>
+			<br>
+			<br>
+			<img src="CheddarBox2.jpg" width="300px">
+			
+		</div>
+		<div class="col-lg-4">
+			<img src="CheddarVid1.mp4" width="300px">
+			<br>
+			<br>
+			<br>
+			<br>
+			<img src="CheddarDesk.jpg" width="300px">
+			<br>
+			<br>
+			<img src="CheddarVid2.MOV" width="300px">
+		</div>
+		<div class="col-lg-4">
+			<img src="CheddarCouch1.jpg" width="300px">
+			<br>
+			<br>
+			<img src="CheddarBed1.jpg" width="300px">
+			<br>
+			<br>
+			<br>
+			<img src="CheddarCone1.PNG" width="300px" onmouseover="onHover(0);" onmouseout="onHover(2);">
+			<br>
+			<br>
+			<span id="shoelacetext">Rollover above or below pic for more info</span>
+			<br>
+			<br>
+			<img src="ShoelaceAuction.JPG" width="300px" onmouseover="onHover(1);" onmouseout="onHover(2);"></span>
+			<br>
+		</div>
+	</div>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<!-- <div class="row">
+		<div class="col-lg-4">
+			<img src="CheddarRadiator1.jpg" width="300px">
+		</div>
+		<div class="col-lg-4">
+			<img src="CheddarBed1.jpg" width="300px">
+		</div>
+		<div class="col-lg-4">
+			<img src="CheddarBed1.jpg" width="300px">
+		</div>
+	</div> -->
+</div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
